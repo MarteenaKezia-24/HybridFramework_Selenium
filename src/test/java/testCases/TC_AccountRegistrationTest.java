@@ -11,6 +11,8 @@ public class TC_AccountRegistrationTest extends BaseClass {
 	@Test
 	public void verify_account_registration()
 	{
+		logger.info("**** startting TC_AccountRegistrationTest ****");
+		
 		HomePage hp = new HomePage(driver);
 		hp.clickMyAccount();
 		hp.clickRegister();
@@ -26,8 +28,12 @@ public class TC_AccountRegistrationTest extends BaseClass {
 //		regpage.setPassword(pswd);
 //		regpage.setconfirmPassword(pwsd);
 //		String confmsg=regpage.getConfirmationMsg();
+//		Try {
 //		Assert.assertEquals(confmsg, "Your Account Has Been Created");
-		
+//	}
+//	catch {
+//		logger.error("test failed");
+//	}
 	}		
 }
 
