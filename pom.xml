@@ -159,11 +159,11 @@
 			<artifactId>commons-email</artifactId>
 			<version>1.5</version>
 		</dependency>
-		<dependency>
+	<!-- 	<dependency>
 			<groupId>ExcelrTestNG</groupId>
 			<artifactId>ExcelrTestNG</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		</dependency> -->
 	</dependencies>
   
 </project>

@@ -8,7 +8,7 @@ import testBase.BaseClass;
 public class TC_AccountRegistrationTest extends BaseClass {
 
 	
-	@Test
+	@Test(groups={"Regression","Master"})
 	public void verify_account_registration()
 	{
 		logger.info("**** startting TC_AccountRegistrationTest ****");
@@ -34,6 +34,8 @@ public class TC_AccountRegistrationTest extends BaseClass {
 //	catch {
 //		logger.error("test failed");
 //	}
+		
+		logger.info(" **** Finished TC_AccountRegistrationTest ****");
 	}		
 }
 

@@ -1,0 +1,57 @@
+18:10:51.705 [main] %-5 level testCases.TC_AccountRegistrationTest - **** startting TC_AccountRegistrationTest ****
+18:29:38.700 [main] %-5 level testCases.TC_AccountRegistrationTest - **** startting TC_AccountRegistrationTest ****
+18:32:57.373 [main] %-5 level testCases.TC_AccountRegistrationTest - **** startting TC_AccountRegistrationTest ****
+12:48:34.395 [main] %-5 level testCases.TC_AccountRegistrationTest - **** startting TC_AccountRegistrationTest ****
+13:11:15.125 [main] %-5 level testCases.TC_AccountRegistrationTest - **** startting TC_AccountRegistrationTest ****
+14:19:54.410 [main] %-5 level testCases.TC_LoginTest - ********* Starting TC_LoginTest **********
+14:19:56.121 [main] %-5 level testCases.TC_LoginTest - ********* Finished TC_LoginTest **********
+14:23:03.549 [main] %-5 level org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\marte\eclipse-workspace\HybridFramework\HybridFramework_Selenium\testng.xml
+
+14:23:09.629 [main] %-5 level testCases.TC_LoginTest - ********* Starting TC_LoginTest **********
+14:23:11.851 [main] %-5 level testCases.TC_LoginTest - ********* Finished TC_LoginTest **********
+21:27:54.193 [main] %-5 level org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\marte\eclipse-workspace\HybridFramework\HybridFramework_Selenium\testng.xml
+
+21:28:02.923 [main] %-5 level testCases.TC_LoginTest - ********* Starting TC_LoginTest **********
+21:28:05.092 [main] %-5 level testCases.TC_LoginTest - ********* Finished TC_LoginTest **********
+23:38:11.309 [main] %-5 level org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\marte\eclipse-workspace\HybridFramework\HybridFramework_Selenium\testng.xml
+
+23:38:18.680 [main] %-5 level testCases.TC_LoginTest - ********* Starting TC_LoginTest **********
+23:38:21.641 [main] %-5 level testCases.TC_LoginTest - ********* Finished TC_LoginTest **********
+23:38:22.279 [AsyncHttpClient-1-4] %-5 level org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+15:33:12.884 [main] %-5 level org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Marteena\eclipse-workspace\Practice of Selenium\OpenCart\testng.xml
+
+15:33:20.877 [main] %-5 level testCases.TC_AccountRegistrationTest - **** startting TC_AccountRegistrationTest ****
+15:33:26.710 [main] %-5 level testCases.TC_LoginTest - ********* Starting TC_LoginTest **********
+15:33:28.240 [main] %-5 level testCases.TC_LoginTest - ********* Finished TC_LoginTest **********
+15:42:53.742 [main] %-5 level org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Marteena\eclipse-workspace\Practice of Selenium\OpenCart\grouping.xml
+
+15:43:22.986 [main] %-5 level org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Marteena\eclipse-workspace\Practice of Selenium\OpenCart\testng.xml
+
+15:43:29.745 [main] %-5 level testCases.TC_AccountRegistrationTest - **** startting TC_AccountRegistrationTest ****
+15:43:31.042 [main] %-5 level testCases.TC_AccountRegistrationTest -  **** Finished TC_AccountRegistrationTest ****
+15:43:34.953 [main] %-5 level testCases.TC_LoginTest - ********* Starting TC_LoginTest **********
+15:43:36.495 [main] %-5 level testCases.TC_LoginTest - ********* Finished TC_LoginTest **********
+15:44:10.886 [main] %-5 level org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Marteena\eclipse-workspace\Practice of Selenium\OpenCart\grouping.xml
+

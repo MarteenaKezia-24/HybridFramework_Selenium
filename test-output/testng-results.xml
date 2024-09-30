@@ -2,12 +2,18 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-29T23:38:11 IST" name="Master Suite" finished-at="2024-09-29T23:38:22 IST" duration-ms="11198">
+  <suite started-at="2024-09-30T16:11:38 IST" name="Failed suite [Master Suite]" finished-at="2024-09-30T16:11:47 IST" duration-ms="8889">
     <groups>
+      <group name="Master">
+        <method signature="TC_LoginTest.VerifyLogin()[pri:0, instance:testCases.TC_LoginTest@6ce1f601]" name="VerifyLogin" class="testCases.TC_LoginTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_LoginTest.VerifyLogin()[pri:0, instance:testCases.TC_LoginTest@6ce1f601]" name="VerifyLogin" class="testCases.TC_LoginTest"/>
+      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2024-09-29T23:38:11 IST" name="Test" finished-at="2024-09-29T23:38:22 IST" duration-ms="11198">
+    <test started-at="2024-09-30T16:11:38 IST" name="Test(failed)" finished-at="2024-09-30T16:11:47 IST" duration-ms="8889">
       <class name="testCases.TC_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LoginTest@4d63b624]" started-at="2024-09-29T23:38:11 IST" name="setup" finished-at="2024-09-29T23:38:18 IST" duration-ms="7292" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LoginTest@6ce1f601]" started-at="2024-09-30T16:11:38 IST" name="setup" finished-at="2024-09-30T16:11:45 IST" duration-ms="6693" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyLogin()[pri:0, instance:testCases.TC_LoginTest@4d63b624]" started-at="2024-09-29T23:38:18 IST" name="VerifyLogin" finished-at="2024-09-29T23:38:21 IST" duration-ms="2973" status="PASS">
+        <test-method signature="VerifyLogin()[pri:0, instance:testCases.TC_LoginTest@6ce1f601]" started-at="2024-09-30T16:11:45 IST" name="VerifyLogin" finished-at="2024-09-30T16:11:47 IST" duration-ms="1948" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LoginTest@4d63b624]" started-at="2024-09-29T23:38:21 IST" name="tearDown" finished-at="2024-09-29T23:38:22 IST" duration-ms="863" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LoginTest@6ce1f601]" started-at="2024-09-30T16:11:47 IST" name="tearDown" finished-at="2024-09-30T16:11:47 IST" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Master Suite -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Master Suite] -->
 </testng-results>

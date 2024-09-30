@@ -20,7 +20,7 @@ public class BaseClass {
 	public Logger logger; //log4j
 	public Properties p;
 	
-	@BeforeClass
+	@BeforeClass(groups= {"Sanity","Regression","Master","DataDriven"})
 	@Parameters({"os","browser"})
 	public void setup(String os, String br) throws Exception {
 		
@@ -45,7 +45,7 @@ public class BaseClass {
 		driver.get(p.getProperty("URL")); //reading url from properties file
 		driver.manage().window().maximize();
 	}
-	@AfterClass
+	@AfterClass(groups= {"Sanity","Regression","Master","DataDriven"})
 	public void tearDown()
 	{
 		driver.quit();
